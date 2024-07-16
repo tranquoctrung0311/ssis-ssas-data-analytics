@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DoanCK", "DoanCK\DoanCK.dwproj", "{EAD95E0C-2FC8-4A91-97E2-7172A4BD9C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAD95E0C-2FC8-4A91-97E2-7172A4BD9C49}.Development|Default.ActiveCfg = Development
+		{EAD95E0C-2FC8-4A91-97E2-7172A4BD9C49}.Development|Default.Build.0 = Development
+		{EAD95E0C-2FC8-4A91-97E2-7172A4BD9C49}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE837CDA-C1F9-4929-A54C-C21C1989A0F9}
+	EndGlobalSection
+EndGlobal

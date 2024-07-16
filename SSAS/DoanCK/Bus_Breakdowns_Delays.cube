@@ -1,0 +1,531 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d87c6c6b-43d4-4fbd-bb53-19d85f7bb638" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Bus Breakdowns Delays</ID>
+  <Name>Bus_Breakdowns_Delays</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5803" scrolltop="-989" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="86" x="15600" y="12848" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time_Created_On" left="1409" top="123" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Time_Created_On" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time_Occurred_On" left="1483" top="12107" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Time_Occurred_On" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time_Informed_On" left="8347" top="6053" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Time_Informed_On" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact" left="45" top="3722" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="5927" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00002717000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1960" top="1931" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="2091" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Fact-Dim_Time_Created_On]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="3" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2359" y="2430" />
+              <point x="2359" y="3014" />
+              <point x="2458" y="3014" />
+              <point x="2458" y="3722" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1484" top="8422" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="1274" height="4185" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Fact-Dim_Time_Occurred_On]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="0" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1883" y="12107" />
+              <point x="1883" y="10415" />
+              <point x="2458" y="10415" />
+              <point x="2458" y="8722" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5672" top="5922" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="2975" height="1684" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Fact-Dim_Time_Informed_On]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="12" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8347" y="7206" />
+              <point x="7160" y="7206" />
+              <point x="7160" y="6222" />
+              <point x="5972" y="6222" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5803</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-989</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>45</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>123</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>86</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="2dfcfa85-ac94-4046-a82c-c63145f361da">
+      <ID>Fact</ID>
+      <Name>Fact</Name>
+      <DimensionID>Fact</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a2d4ea3a-2b47-4974-83e4-86a4ba1a1c16">
+          <AttributeID>Busbreakdown ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0fcb158c-1575-4c22-8a22-480c1e12ea1b">
+          <AttributeID>Occurred On</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cec160d3-1cb9-4a0e-b695-4b40ed755fbb">
+          <AttributeID>Created On</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f22431cf-b646-4740-8878-22546f017d8b">
+          <AttributeID>Informed On</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a4ab1b3d-ae90-4119-abe4-45c862221d78">
+          <AttributeID>Bus No</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="36e7aa48-2e69-4fdc-99ec-c49553c5a332">
+          <AttributeID>School Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="30fa23e5-c34b-4619-a60f-696f30fca902">
+          <AttributeID>Route Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e71dcb85-91dd-4015-a5d0-c0026c30b55b">
+          <AttributeID>Reason</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="112d39e5-6bc3-4bee-b638-363df8b4a23b">
+          <AttributeID>Boro</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="557048d3-0eae-4ad8-889c-469117aa61c6">
+          <AttributeID>Number Of Students On The Bus</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="55a86506-3ae9-40c9-9dcf-828238e32a95">
+          <AttributeID>Run Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dd25fa96-570b-40fe-8fe7-22ba9efff8e9">
+          <AttributeID>Bus Company Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fb45eb2c-5e13-4dd1-89f6-e938485bc684">
+      <ID>Dim Time Occurred On</ID>
+      <Name>Dim Time Occurred On</Name>
+      <DimensionID>Dim Time Occurred On</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="67f45444-f310-4101-908b-69f0a869a496">
+          <AttributeID>Occurred On</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="48b77b04-8362-4746-be46-3527d28cbb37">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9ce02133-23ee-430a-8861-b00dd4031f65">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a979d6f2-5e1c-4765-88aa-7991ac0d2825">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="45f03601-19ba-4b4c-96e8-7e623119c860">
+      <ID>Dim Time Created On</ID>
+      <Name>Dim Time Created On</Name>
+      <DimensionID>Dim Time Created On</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="29588baa-f797-4411-bccb-c656a29e96db">
+          <AttributeID>Created On</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2b2bfb8e-03cc-4b31-a62a-861dc876e222">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="00183965-b278-49e0-ab23-75b504d19911">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="79c5c57a-939a-4930-945d-ee849b540109">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="59a46fa4-7fbc-4e72-9e68-41f35d73c633">
+      <ID>Dim Time Informed On</ID>
+      <Name>Dim Time Informed On</Name>
+      <DimensionID>Dim Time Informed On</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c2757855-9c10-4c30-992b-5e766a3411d4">
+          <AttributeID>Informed On</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a0660bb-250c-4f96-bcef-617c1c92fe41">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="893dffd2-1f02-48ac-bb07-acfd4b4af374">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ddd3220-c1f7-4c25-94d3-7fbae0408737">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="6696bbf4-f648-4b25-9160-cacba04f2d6e">
+      <ID>Fact</ID>
+      <Name>Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="86a19194-0668-4de3-9186-572a27578a62">
+          <ID>Schools Serviced</ID>
+          <Name>Schools Serviced</Name>
+          <Source dwd:design-time-name="d2141ffd-7d22-4003-97ff-e4f0f8c5ceff">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5394b321-d6c7-4c1a-bae5-a5089a27f9df">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Schools_Serviced</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="df8e5827-f6ff-4960-906a-e4f49027aa5c">
+          <ID>Number Of Students On The Bus</ID>
+          <Name>Number Of Students On The Bus</Name>
+          <Source dwd:design-time-name="d2353a7b-0e31-4d9b-b0be-14e50b8a3a41">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5976c455-cc77-4bfc-8fd8-3b6b0bb4d6e0">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Number_Of_Students_On_The_Bus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="51fffb4a-41de-4fc5-ad6b-2c06758f967d">
+          <ID>Fact Count</ID>
+          <Name>Fact Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="a08be4ad-7c30-45ac-bfaa-fe0ae3c32f0f">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e276656f-303d-4b28-81b2-16df5156a104">
+              <TableID>dbo_Fact</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4b170701-a571-41e6-bda3-18e5ee6e4b2e">
+          <ID>Busbreakdown ID</ID>
+          <Name>Busbreakdown ID</Name>
+          <Source dwd:design-time-name="0619ff38-af9c-46b8-a732-fb9a84ac904b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f3180ffc-ae9a-4af4-a6c3-5ef085a511e9">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Busbreakdown_ID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="672b8048-9e49-44bd-b3e8-a7d84aa36772">
+          <ID>Bus No Count</ID>
+          <Name>Bus No Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="13041d20-328b-449d-8738-8938513f95bf">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b686b18b-ac97-4ce0-89a7-dcb38ac7d34a">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Bus_No</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4b18b65d-5137-4125-8863-635136741ece">
+          <ID>Reason Count</ID>
+          <Name>Reason Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="64db9c3c-7cc2-4186-9914-986427bcc27b">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cce54a3b-3720-4877-8229-2fa12cb4492f">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Reason</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="96ae4f0f-963c-4b1f-9039-be80bd57eabc">
+          <ID>Route Number Count</ID>
+          <Name>Route Number Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="edf4e8d7-d1a5-48b1-855c-601659416998">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f9a2ae78-dcdc-4d15-9d27-8c48f6ff38d3">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Route_Number</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="934ab4a5-0bf2-474c-93b3-5f6127cb937e">
+          <ID>Boro Count</ID>
+          <Name>Boro Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="fe9b90da-db2e-4277-90c3-34b0fd1b23b0">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0e94f1ff-e085-4436-9777-db1d7d309dba">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Boro</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f5f049c1-268a-4596-ba60-e1a2d7282766">
+          <ID>Run Type Count</ID>
+          <Name>Run Type Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="f12a617e-003d-4ea6-ae7e-6dc0d63adc0b">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fd11c3bc-ad34-4fec-8e5f-28b52537b1d0">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Run_Type</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="76331e29-0990-477d-83bd-aafc2c9477b7">
+          <ID>Bus Company Name Count</ID>
+          <Name>Bus Company Name Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="83b81100-273b-4f8f-a943-0efc36af0ce6">
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aa6ecd01-a4c3-4fd6-b0b8-0dee088730db">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Bus_Company_Name</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="151b4478-7e68-42db-9065-38f2c2ed6e04">
+          <ID>Created On Count</ID>
+          <Name>Created On Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="3dcec155-9990-48e3-ae0a-22e0377140f4">
+            <DataType>Date</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="52eb3050-b969-4c97-8fdd-0e490e52dca4">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Created_On</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8b3edbef-3a00-4059-8fd7-981ab704b8b3">
+          <ID>Occurred On Count</ID>
+          <Name>Occurred On Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="bfb29d34-db3c-4595-b4e5-d4ed007ad141">
+            <DataType>Date</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="375d5771-c2f2-400c-8f15-9c20b59daa3a">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Occurred_On</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0a7b2189-14f5-4f6d-b9f9-d6d0f0a55991">
+          <ID>Schools Serviced - Fact</ID>
+          <Name>Schools Serviced - Fact</Name>
+          <Source dwd:design-time-name="86ec27bc-49e2-43d3-877e-48e0b801223f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e6f69ee2-11d6-4659-bde6-bd588ecf6976">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Schools_Serviced</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="35762db5-881d-4541-95dc-75b500d156fa">
+          <ID>Number Of Students On The Bus - Fact</ID>
+          <Name>Number Of Students On The Bus - Fact</Name>
+          <Source dwd:design-time-name="70046122-bc48-440d-a1f2-74d7ae6a24e7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f4d6377b-caab-42e0-b96b-18e428f90079">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>Number_Of_Students_On_The_Bus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="fba9bd2c-5006-443a-abe4-50b4188cb6be">
+          <CubeDimensionID>Fact</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="28a6015c-3af5-4598-83f7-376c8ea2c2b2">
+              <AttributeID>Busbreakdown ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cc5a2613-c69a-447c-8bdc-c0a97e59e9a1">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="37a398b4-0bac-4536-a12a-8562f47e3b75">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>Busbreakdown_ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1431eadc-cb38-4508-abef-e0900b446e07">
+          <CubeDimensionID>Dim Time Occurred On</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="55bf409a-6590-479f-a455-0d60835e21ee">
+              <AttributeID>Occurred On</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c9d817b6-16c7-4dab-ad83-82cf326d536b">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a5fd3871-94ad-4b3b-b329-55df387c8f14">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>Occurred_On</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0b185e0a-aab0-40dd-86a8-dc1705850cbd">
+          <CubeDimensionID>Dim Time Created On</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c7a5081f-62cf-4030-a2ca-e94856993239">
+              <AttributeID>Created On</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="536af9b1-3ad2-4046-bd2d-191f4fcf311c">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4a78a52f-abd1-4394-9879-4cfbc15e650a">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>Created_On</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="addf473c-c2b1-4d22-844e-2bd8f7475bf6">
+          <CubeDimensionID>Dim Time Informed On</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="54b45abf-e953-4442-bbcb-923fa0fe3446">
+              <AttributeID>Informed On</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6caa356c-0e37-4d10-a82f-d214768a8956">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="837cff64-a3f0-4112-8bc2-4878e03f11a4">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>Informed_On</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="f19661f9-9571-491e-acf3-620d383c264a">
+    <DataSourceViewID>Bus Breakdowns Delays</DataSourceViewID>
+  </Source>
+</Cube>
